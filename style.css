@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Inter', sans-serif;
+    padding: 20px;
+}
+/* Light mode styles */
+body.light-mode {
+    background-color: white;
+    color: black;
+  }
+
+  /* Dark mode styles */
+  body.dark-mode {
+    background-color: #222;
+    color: white;
+  }
+
+  /* Toggle button styles */
+  .toggle-btn {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+header .header-left {
+    display: flex;
+    align-items: center;
+}
+.toggle-btn{
+    margin: 0 auto;
+    
+}
+
+header .header-left nav ul {
+    display: flex;
+}
+nav ul li a {
+    display: block;
+    color: #cfd9e0;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: 0.2s;
+}
+nav ul li a:hover,
+nav ul li a.active {
+    color: #fff;
+}
+header .header-right {
+    display: flex;
+    align-items: center;
+}
+
+
+header .header-right .hamburger {
+    margin-left: 20px;
+    cursor: pointer;
+    display: none;
+}
+header .header-right .hamburger div {
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background:#404040;
+}
+main{
+    padding: 10px;
+}
+@media only screen and (max-width: 1000px) {
+    header {
+        padding: 0 20px;
+    }
+    header .header-right .hamburger {
+        display: block;
+    }
+    header .header-left nav {
+        margin: 0;
+        position: absolute;
+        top: -100%;
+        right: 0;
+        width: 100%;
+        height: fit-content;
+        background-color: #222;
+        padding: 30px;
+        transition: 0.5s;
+        text-align:start;
+        z-index: -1;
+    }
+    header .header-left a{
+        padding: 20px;
+    }
+    header .header-left nav.active {
+        top: 70px;
+    }
+    header .header-left nav ul {
+        display: block;
+    }
+}
+@media only screen and (max-width: 500px) {
+    nav .login-signup {
+        display: block;
+        margin-top: 20px;
+    }
+    header .header-right .login-signup {
+        display: none;
+    }
+}
