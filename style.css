@@ -139,6 +139,24 @@ h4{
 .toggle-btn{
     display: none;
 }
+#more{
+    background-color:#333;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+   
+}
+#more:hover{
+    background-color:#625d5d;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
 @media only screen and (max-width: 700px) {
     header {
         display: flex;
@@ -192,14 +210,7 @@ h4{
         width: 100%;
         
     }
-    #more{
-        background-color:#333;
-        border: 0;
-        border-radius: 5px;
-        padding: 10px;
-        color: white;
-       
-    }
+    
 }
 @media only screen and (max-width: 500px) {
     nav .login-signup {
