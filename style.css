@@ -138,6 +138,13 @@ h4{
 .project-icon img{
     width: 100%;
 }
+#more{
+    background-color:#333;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
 @media only screen and (max-width: 1000px) {
     header {
         padding: 0 5px;
