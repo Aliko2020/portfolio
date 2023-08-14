@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style: none;
     
+    
 }
 body{
     transition: background-color 0.3s, color 0.3s;
@@ -15,13 +16,15 @@ body{
 /* Light mode styles */
 body.light-mode {
     background-color: white;
-    color: black;
+    color: #404040;
+    
   }
 
   /* Dark mode styles */
   body.dark-mode {
     background-color: #222;
-    color: white;
+    color:#c8bfbf;
+    
   }
 
   /* Toggle button styles */
@@ -34,22 +37,35 @@ body.light-mode {
     border: none;
     border-radius: 5px;
   }
-
+ 
+.showEmoji{
+    display: block;
+}
+.hideEmoji{
+    display: none;
+}
 header {
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content:space-between;
+    margin-bottom: 50px;
     
 }
 header .header-left {
     display: flex;
+    gap: 10px;
     align-items: center;
+    
 }
+/* .time{
+    margin-top: 3px;
+    background-color: #333;
+    color: #fff;
+} */
 .toggle-btn{
     margin: 0 auto;
-    
+    background-color: #444;
 }
 
 header .header-left nav ul {
@@ -84,11 +100,48 @@ header .header-right .hamburger div {
     background:#404040;
 }
 main{
+    padding: 5px;
+}
+h4{
+    margin-bottom: 4px;
+}
+.web-dev{
+    color: #555758;
+    margin-bottom: 25px;
+}
+.intro{
+    text-align:inherit;
+    line-height: 1.5rem;
+}
+.projects{
+    margin: 20px 0;
+    text-decoration: underline;
+}
+
+.project-link{
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+    color: #333;
+    margin-bottom: 20px;
     padding: 10px;
+    border-radius: 10px;
+}
+.project-link:hover{
+    background-color: #555758;
+    color: #c8bfbf;
+}
+.project-icon{
+    width: 20%;
+   
+}
+.project-icon img{
+    width: 100%;
 }
 @media only screen and (max-width: 1000px) {
     header {
-        padding: 0 20px;
+        padding: 0 5px;
+        
     }
     header .header-right .hamburger {
         display: block;
@@ -104,7 +157,7 @@ main{
         padding: 30px;
         transition: 0.5s;
         text-align:start;
-        z-index: -1;
+        /* z-index: -1; */
     }
     header .header-left a{
         padding: 20px;
@@ -123,5 +176,10 @@ main{
     }
     header .header-right .login-signup {
         display: none;
+    }
+    .project-icon{
+        width: 50%;
+        margin: auto 0;
+       
     }
 }

@@ -1,7 +1,9 @@
 const body = document.body;
-const TimeBar = document.querySelector('.logo')
+const TimeBar = document.querySelector('.time')
 const greet = document.getElementById("greeting")
 const togglebtn = document.querySelector('.toggle-btn')
+const imag = document.querySelector('.emoji')
+const imag2 = document.querySelector('.emoji2')
 
 
 hamburger = document.querySelector(".hamburger");
@@ -13,7 +15,9 @@ hamburger.onclick = function() {
 togglebtn.addEventListener('click',()=>{
     body.classList.toggle('dark-mode');
     body.classList.toggle('light-mode');
-    console.log('hhhh');
+    imag.classList.toggle('hideEmoji')
+    imag2.classList.toggle('hideEmoji')
+    
 })
 
 
@@ -38,17 +42,17 @@ function getCurrentTimeFormatted() {
     const currentHour = currentTime.getHours();
   
     if (currentHour >= 5 && currentHour < 12) {
-      return "GOOD MORNING🛌🏿";
+      return "Good morning🛌🏿";
     } else if (currentHour >= 12 && currentHour < 17) {
-      return "GOOD AFTERNOON🌕";
+      return "Good afternoon🌕";
     } else {
-      return "GOOD EVENING🌚";
+      return "Good evening🌚";
     }
   }
   
   const currentTimeFormatted = getCurrentTimeFormatted();
   const greeting = getGreetingBasedOnTime();
-  
+  // TimeBar.innerHTML= `<p>${currentTimeFormatted}</p>`
   
   
 
