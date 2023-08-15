@@ -157,6 +157,48 @@ footer{
     align-items: center;
     margin-top: 40px;
 }
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.skills h3{
+    text-decoration: underline;
+}
+.skills .skill-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    gap: 50px;
+    align-items: center;
+    margin: 20px;
+    
+}
+.progress-bar-html{
+    background-color: #625d5d;
+    padding: 3px 120px;
+    border-radius: 10px;
+}
+.progress-bar-css{
+    background-color: #625d5d;
+    padding: 3px 100px;
+    border-radius: 10px;  
+}
+.progress-bar-js{
+    background-color: #625d5d;
+    padding: 3px 70px;
+    border-radius: 10px;
+}
+.progress-bar-react{
+    background-color: #625d5d;
+    padding: 3px 60px;
+    border-radius: 10px;
+}
+.progress-bar-git{
+    background-color: #625d5d;
+    padding: 3px 40px;
+    border-radius: 10px; 
+}
 @media only screen and (max-width: 700px) {
     header {
         display: flex;
