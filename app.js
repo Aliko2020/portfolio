@@ -4,6 +4,7 @@ const greet = document.getElementById("greeting")
 const togglebtn = document.querySelector('.toggle-btn')
 const imag = document.querySelector('.emoji')
 const imag2 = document.querySelector('.emoji2')
+const resume = document.querySelector('.resume-btn')
 
 
 hamburger = document.querySelector(".hamburger");
@@ -20,7 +21,10 @@ togglebtn.addEventListener('click',()=>{
     
 })
 
-
+resume.addEventListener('click',()=>{
+const linkURL = "https://github.com/Aliko2020/resume/blob/main/Amos_Aliko_CV.pdf"; 
+      window.location.href = linkURL;
+})
 function getCurrentTimeFormatted() {
     const now = new Date();
     let hours = now.getHours();

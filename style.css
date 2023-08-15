@@ -119,6 +119,19 @@ h4{
     width: 100%;
     border-radius: 10px;
 } */
+.resume-btn{
+    padding: 5px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 0;
+    background-color: #F8CF25;
+    color: #333;
+    font-size: 1.1rem;
+    
+}
+.resume-btn:hover{
+    background-color: #FFE9A2;
+}
 .projects{
     margin: 20px 0;
     text-decoration: underline;
@@ -140,15 +153,19 @@ h4{
     display: none;
 }
 #more{
-    background-color:#333;
-    border: 0;
+    padding: 5px 20px;
+    margin: 10px 0;
     border-radius: 5px;
-    padding: 10px;
-    color: white;
+    border: 0;
+    background-color: #F8CF25;
+    color: #333;
+    font-size: 1.1rem;
+    
+    
    
 }
 #more:hover{
-    background-color:#625d5d;
+    background-color:#FFE9A2;
 }
 footer{
     display: flex;
