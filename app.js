@@ -24,6 +24,7 @@ togglebtn.addEventListener('click',()=>{
 resume.addEventListener('click',()=>{
 const linkURL = "https://github.com/Aliko2020/resume/blob/main/Amos_Aliko_CV.pdf"; 
       window.location.href = linkURL;
+  
 })
 function getCurrentTimeFormatted() {
     const now = new Date();
@@ -56,7 +57,7 @@ function getCurrentTimeFormatted() {
   
   const currentTimeFormatted = getCurrentTimeFormatted();
   const greeting = getGreetingBasedOnTime();
-  // TimeBar.innerHTML= `<p>${currentTimeFormatted}</p>`
+ greet.textContent = greeting
   
   
 
