@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="dark-mode">
-    <header>
+<body class="dark-mode" >
+    <header id="main">
         <div class="header-left">
             <div class="toggle-btn">
                <span class="emoji2"><img src="asserts/switch-svgrepo-com (1).svg" alt="" width="20px"></span>
@@ -17,16 +17,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="" class="active">🏡 Home</a>
+                        <a href="#main" class="active">🏡 Home</a>
                     </li>
                     <li>
-                        <a href="">👨🏿‍💻 About</a>
+                        <a href="#about">👨🏿‍💻 About</a>
                     </li>
                     <li>
-                        <a href="">📁 Projects</a>
+                        <a href="#projects">📁 Projects</a>
                     </li>
                     <li>
-                        <a href="">📧 Contact</a>
+                        <a href="#contact">📧 Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -39,7 +39,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main >
        <div>
         <h4>Aliko Amos</h4>
         <p class="web-dev">Junior Web Developer</p>
@@ -50,7 +50,7 @@
         <!-- <div class="hero">
             <img src="image.jpeg" alt="">
         </div> -->
-        <h2 class="projects">Projects</h2>
+        <h2 id="projects">Projects</h2>
         <a class="project-link" href="https://aliko2020.github.io/front-end-advice-generator/">
             <div class="project-icon">
                 <img src="asserts/folder-svgrepo-com (3).svg" alt="" >
@@ -83,8 +83,8 @@
         </a>
         <button id="more">More Projects</button>
        </div>
+       <h3 class="skills-h3">My Skills</h3>
        <div class="skills">
-        <h3>My Skills</h3>
         <div class="skill-container">
             <div><img src="asserts/html5-01-svgrepo-com (1).svg" alt="" width="50px"></div>
             <div><span class="progress-bar-html"></span></div>
@@ -106,7 +106,7 @@
             <div><span class="progress-bar-git"></span></div>
         </div>
        </div>
-       <div class="about">
+       <div class="about" id="about">
         <h3><span class="stylist">A</span>bout <span class="stylist">M</span>e</h3>
         <div>
             <img src="asserts/image.jpeg" alt="" srcset="">
@@ -121,7 +121,7 @@
        </div>
     </main>
     <footer>
-        <div class="socials">
+        <div class="socials" id="contact">
             <a href="#"><img src="asserts/twitter-color-svgrepo-com.svg" alt="" width="20px"></a>
             <a href="https://www.linkedin.com/in/aliko-amos-0a7098246/"><img src="asserts/linkedin.svg" alt="" width="20px"></a>
             <a href="https://github.com/Aliko2020"><img src="asserts/github-color-svgrepo-com.svg" alt="" width="20px"></a>

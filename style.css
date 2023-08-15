@@ -133,7 +133,7 @@ h4{
 .resume-btn:hover{
     background-color: #FFE9A2;
 }
-.projects{
+#projects{
     margin: 20px 0;
     text-decoration: underline;
 }
@@ -186,14 +186,15 @@ footer{
 .skills{
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 10px;
     background-color: #333;
     padding: 20px;
     border-radius: 10px;
 }
-.skills h3{
+.skills-h3{
     text-decoration: underline;
-    color: #F8CF25;
+    margin: 20px 0;
+    color: #c8bfbf;
 }
 .skills .skill-container{
     display: flex;
@@ -230,7 +231,7 @@ footer{
     border-radius: 10px; 
 }
 .about{
-    margin-top: 20px;
+    margin-top: 30px;
     
 }
 .about h3{
