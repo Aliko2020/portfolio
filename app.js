@@ -48,7 +48,7 @@ function getCurrentTimeFormatted() {
   
     if (currentHour >= 5 && currentHour < 12) {
       return "Good morning🌄";
-    } else if (currentHour > 12 && currentHour < 17) {
+    } else if (currentHour >= 12 && currentHour < 17) {
       return "Good afternoon🌞";
     } else if(currentHour >=17 && currentHour <21){
       return "Good evening!"
