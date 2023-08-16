@@ -237,6 +237,9 @@ footer{
 .about h3{
     text-decoration:underline;
 }
+.about p{
+    line-height: 1.5rem;
+}
 .about img{
     width: 100%;
     margin: 20px 0;
