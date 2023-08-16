@@ -22,7 +22,7 @@ togglebtn.addEventListener('click',()=>{
 })
 
 resume.addEventListener('click',()=>{
-const linkURL = "https://github.com/Aliko2020/resume/blob/main/Amos_Aliko_CV.pdf"; 
+const linkURL = "https://drive.google.com/file/d/1-bEQwxsmf_CDojtDJwMe3sE5DYCKBOoQ/view?usp=drivesdk"; 
       window.location.href = linkURL;
   
 })
