@@ -52,6 +52,7 @@ header {
 header .header-left {
     display: flex;
     justify-content: center;
+    
 }
 /* .time{
     margin-top: 3px;
@@ -60,7 +61,7 @@ header .header-left {
 } */
 .toggle-btn{
     margin: auto;
-
+   
 }
 
 header .header-left nav ul {
@@ -94,7 +95,7 @@ header .header-right .hamburger div {
     width: 30px;
     height: 2px;
     margin: 0.314rem 0;
-    background:#404040;
+    background:#feb712;
 }
 main{
     padding: 0.3125rem;
