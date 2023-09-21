@@ -1,7 +1,7 @@
 const body = document.body;
 const TimeBar = document.querySelector('.time')
 const greet = document.getElementById("greeting")
-// const togglebtn = document.querySelector('.toggle-btn')
+const togglebtn = document.querySelector('.toggle-btn')
 const imag = document.querySelector('.emoji')
 const imag2 = document.querySelector('.emoji2')
 const resume = document.querySelector('.resume-btn')
