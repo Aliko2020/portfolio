@@ -114,20 +114,12 @@ h4{
     line-height: 1.5;
     margin-bottom: 0.5rem;
 }
-/* .hero{
-    width: 100%;
-    padding: 20px 0;
-}
-.hero img{
-    width: 100%;
-    border-radius: 10px;
-} */
 .resume-btn{
     padding: 0.312rem 1.25rem;
     margin: 0.4rem 0;
     border-radius: 0.312rem;
     border: 0;
-    background-color: #F8CF25;
+    background-color: #feb712;
     color: #333;
     font-size: 1.125rem;
     cursor: pointer;
@@ -135,8 +127,13 @@ h4{
 .resume-btn:hover{
     background-color: #FFE9A2;
 }
-#projects{
+.projects{
     margin: 20px 0;
+}
+.projects h2{
+    color: #feb712;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
     text-decoration: underline;
 }
 
@@ -165,7 +162,7 @@ h4{
     margin: 10px 0;
     border-radius: 5px;
     border: 0;
-    background-color: #F8CF25;
+    background-color: #feb712;
     color: #333;
     font-size: 1.1rem;
     cursor: pointer;
@@ -174,71 +171,56 @@ h4{
    
 }
 #more:hover{
-    background-color:#FFE9A2;
-}
-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    background-color: #333;
-    padding: 20px;
+    background-color:#feb712;
 }
 .skills{
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    background-color: #333;
-    padding: 20px;
-    border-radius: 10px;
+    
 }
-.skills-h3{
-    text-decoration: underline;
-    margin: 20px 0;
-    color: #c8bfbf;
+.skills h3{
+    color: #feb712;
+    margin: 10px 0;
+}
+.skills h4{
+    margin:5px 20px 2px 0 ;
+    padding: 7px;
 }
 .skills .skill-container{
     display: flex;
-    flex-direction: row;
-    justify-content:start;
-    gap: 10px;
-    align-items: center;
-    margin: 20px 0;
-    
+    flex-wrap: wrap;
+}
+.skills .skill-container .skill{
+    border: 1px solid #feb712;
 }
 .progress-bar-html{
-    background-color: #625d5d;
-    padding: 3px 120px;
+    background-color: #c8bfbf;
+    padding: 0.5px 120px;
     border-radius: 10px;
 }
 .progress-bar-css{
-    background-color: #625d5d;
-    padding: 3px 100px;
+    background-color: #c8bfbf;
+    padding: 0.5px 100px;
     border-radius: 10px;  
 }
 .progress-bar-js{
-    background-color: #625d5d;
-    padding: 3px 70px;
+    background-color: #c8bfbf;
+    padding: 0.5px 70px;
     border-radius: 10px;
 }
 .progress-bar-react{
-    background-color: #625d5d;
-    padding: 3px 60px;
+    background-color: #c8bfbf;
+    padding: 0.5px 60px;
     border-radius: 10px;
 }
 .progress-bar-git{
-    background-color: #625d5d;
-    padding: 3px 40px;
+    background-color: #c8bfbf;
+    padding: 0.5px 40px;
     border-radius: 10px; 
 }
 .about{
     margin-top: 30px;
     
 }
-.about h3{
-    text-decoration:underline;
-}
+
 .about p{
     line-height: 1.5rem;
 }
@@ -250,23 +232,52 @@ footer{
     padding: 10px;
 }
 .stylist{
-    color: #F8CF25;
+    color: #c8bfbf;
     font-size: 1.5rem;
-}
-#greeting{
-    color: #F8CF25;
 }
 .contact{
     margin-top: 20px;
     font-size: 1.1rem;
     
 }
+.contact .underline{
+    margin: 0.62rem 0;
+    width: 12.5rem;
+    height: 3px;
+    background-color: #F8CF25;
+}
+.contact .happy-coding{
+    color: #F8CF25;
+}
+.contact .letschat{
+    padding: 10px 40px;
+    border: 2px solid #F8CF25;
+    background-color: #222;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin: 5px auto;
+    
+} 
+.contact .letschat:hover{
+    box-shadow: 2px 5px 3px #888888;
+}
 .contact a{
-    color: #78C1F3;
+    color: #F8CF25;
 }
 .contact-box{
     margin: 15px 0;
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #333;
+    padding: 20px;
+}
+
 @media only screen and (max-width: 700px) {
     header {
         display: flex;
@@ -289,8 +300,7 @@ footer{
         padding: 30px;
         transition: 0.5s;
         text-align:start;
-        /* z-index: -1; */
-    }
+    } 
     header .header-left a{
         padding: 20px;
     }
