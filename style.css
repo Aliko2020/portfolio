@@ -126,7 +126,9 @@ h4{
     cursor: pointer;
 }
 .resume-btn:hover{
-    background-color: #FFE9A2;
+    color: #feb712;
+    font-weight: bold;
+
 }
 .projects{
     margin: 20px 0;
